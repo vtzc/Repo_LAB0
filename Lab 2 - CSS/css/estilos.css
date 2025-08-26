@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    color: #272929;
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FFFFFF; 
+}
+
+.header-branding {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; 
+    gap: 25px; 
+}
+
+.logo{
+    height: 100px;
+}
+
+.brand-text h1 {
+    font-size: 3.5rem;
+    color: #272929;
+    margin-bottom: 5px;
+}
+
+.brand-text p {
+    font-size: 1.1rem;
+    color: #4A6BA1;
+}
+
+.main-nav{
+    background-color: #BF0514;
+    padding: 1rem 0;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
+}
+
+
+.full-page-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 220px 2rem 2rem 2rem;
+}
+
+.content-box{
+    max-width: 800px;
+}
+.content-box h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.content-box p{
+    font-size: 1.1 rem;
+    line-height: 1.6;
+}
+
+#inicio{background-color: #ffffff;}
+#planes{background-color: #c0c0c0;}
+#contacto{background-color: #ffffff;}
+
+footer{
+    background-color: #272929;
+    color: #ffffff;
+    text-align: justify;
+    padding: 1rem;
+    width: 100%;
+}
