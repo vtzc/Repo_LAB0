@@ -5,9 +5,19 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main, html, body{
+html{
     background-color: #f2e8cf;
     scroll-behavior: smooth;
+}
+
+main.container{
+    background-color: #f2e8cf;
+    box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.1);
+}
+
+body {
+    background-color: #f2e8cf;
+    padding-top: 200px;
 }
 
 header{
@@ -68,7 +78,35 @@ nav{
 
 .hero{
     display: block;
-    padding: 200px 2rem 2rem 2rem;
+    padding: 40px 4rem 4rem 4rem;
+    border-radius: 10px;
+    background-color: #e7d4a5;
+    text-align: center;
+}
+
+.hero-image {
+    width: 50%;          
+    aspect-ratio: 4 / 3;   
+    object-fit: contain;     
+    border-radius: 8px;    
+    background-color: #f2e8cf;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+#cuenta1, #cuenta2, #cuenta3 {   
+    font-weight: bold;
+    color: #ca6702; 
+}
+
+.card-img-top {
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    object-fit: contain;    
+    background-color: #ffffff; 
+    padding-top: 10px; 
 }
 
 footer{
