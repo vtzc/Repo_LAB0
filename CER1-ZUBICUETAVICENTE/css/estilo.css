@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main, html, body{
+    background-color: #f2e8cf;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #f2e8cf;
+}
+
+.header-branding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.brand-text h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.brand-text p{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.logo{
+    height: 80px;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+nav{
+    background-color: #013e4b;
+    color: #f2e8cf;
+}
+
+#item{
+    color: white;
+}
+
+.navbar{
+    padding: 1rem 0;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon{
+    background-color: #f2e8cf;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.hero{
+    display: block;
+    padding: 200px 2rem 2rem 2rem;
+}
+
+footer{
+    background-color: #013e4b;
+    color: #ffffff;
+    text-align: justify;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+
