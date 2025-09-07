@@ -1,120 +1,145 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-html{
-    background-color: #f2e8cf;
-    scroll-behavior: smooth;
+html {
+  background-color: #f2e8cf;
+  scroll-behavior: smooth;
 }
 
-main.container{
-    background-color: #f2e8cf;
-    box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.1);
+main.container {
+  background-color: #f2e8cf;
+  box-shadow: 0 4px 8px rgba(0.1, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
-    background-color: #f2e8cf;
-    padding-top: 200px;
+  background-color: #f2e8cf;
+  padding-top: 200px;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #f2e8cf;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f2e8cf;
 }
 
-.header-branding{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1rem;
+.header-branding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
-.brand-text h1{
-    font-size: 3rem;
-    margin-bottom: 0;
+.brand-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 
-.brand-text p{
-    font-size: 1.2rem;
-    margin-top: 0;
+.brand-text p {
+  font-size: 1.2rem;
+  margin-top: 0;
 }
 
-.logo{
-    height: 80px;
-    padding-bottom: 1%;
-    padding-right: 1%;
+.logo {
+  height: 80px;
+  padding-bottom: 1%;
+  padding-right: 1%;
 }
 
-nav{
-    background-color: #013e4b;
-    color: #f2e8cf;
+nav {
+  background-color: #013e4b;
+  color: #f2e8cf;
 }
 
-#item{
-    color: white;
+#item {
+  color: white;
 }
 
-.navbar{
-    padding: 1rem 0;
+.navbar {
+  padding: 1rem 0;
 }
 
-.navbar a:hover{
-    text-decoration: underline;
+.navbar a:hover {
+  text-decoration: underline;
 }
 
-.navbar-toggler-icon{
-    background-color: #f2e8cf;
-    border-radius: 5px;
-    padding: 2px;
-    border: 1px solid black;
+.navbar-toggler-icon {
+  background-color: #f2e8cf;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid black;
 }
 
-.hero{
-    display: block;
-    padding: 40px 4rem 4rem 4rem;
-    border-radius: 10px;
-    background-color: #e7d4a5;
-    text-align: center;
+.hero {
+  display: block;
+  border-radius: 10px;
+  background-color: #e7d4a5;
+  text-align: center;
+  padding: 2vw 2vw 2vw 2vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .hero-image {
-    width: 50%;          
-    aspect-ratio: 4 / 3;   
-    object-fit: contain;     
-    border-radius: 8px;    
-    background-color: #f2e8cf;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-
+  width: 50%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f2e8cf;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
-#cuenta1, #cuenta2, #cuenta3 {   
-    font-weight: bold;
-    color: #ca6702; 
+#cuenta1,
+#cuenta2,
+#cuenta3 {
+  font-weight: bold;
+  color: #ca6702;
 }
 
 .card-img-top {
-    width: 100%;
-    aspect-ratio: 4 / 3; 
-    object-fit: contain;    
-    background-color: #ffffff; 
-    padding-top: 10px; 
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding-top: 10px;
 }
 
-footer{
-    background-color: #013e4b;
-    color: #ffffff;
-    text-align: justify;
-    padding: 0.5rem;
-    width: 100%;
+@media (max-width: 425px) {
+  #titulo {
+    font-size: 1.5rem;
+  }
+  #subt {
+    font-size: 0.8rem;
+  }
+  .hero {
+    padding: 1vw 1vw 1vw 1vw;
+  }
+  .hero-image {
+    width: 120%;
+    max-width: 265px;
+    align-self: auto;
+  }
 }
 
-
+footer {
+  background-color: #013e4b;
+  color: #ffffff;
+  text-align: justify;
+  padding: 0.5rem;
+  width: 100%;
+}
